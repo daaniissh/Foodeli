@@ -23,7 +23,8 @@ const Container = styled.div`
 `;
 const Filters = styled.div`
   width: 100%;
-  height: fit-content;
+  // height: fit-content;
+  height:auto;
   overflow-y: hidden;
   padding: 20px 16px;
   @media (min-width: 768px) {
@@ -37,6 +38,10 @@ const FilterSection = styled.div`
   flex-direction: column;
   gap: 16px;
   padding: 12px;
+  
+  @media (max-width: 768px) {
+    height:180px;
+  }
 `;
 const Title = styled.div`
   font-size: 20px;
@@ -49,10 +54,11 @@ const Menu = styled.div`
 `;
 const Products = styled.div`
   padding: 12px;
-  overflow: hidden;
+  overflow-x: hidden;
   height: fit-content;
   @media (min-width: 768px) {
     width: 100%;
+    
     overflow-y: scroll;
     height: 100%;
   }
@@ -71,6 +77,7 @@ const Item = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+
 `;
 
 const SelectableItem = styled.div`

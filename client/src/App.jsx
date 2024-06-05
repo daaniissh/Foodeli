@@ -17,6 +17,7 @@ import Search from "./pages/Search"
 import Profile from "./pages/Profile"
 
 const Container = styled.div`
+user-select:none;
   // width: 100%;
   // height: 100vh;
   // display: flex;

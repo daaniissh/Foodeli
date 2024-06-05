@@ -48,9 +48,9 @@ export const filter = [
       "sushi",
       "tacos",
       "salads",
-      "sandwiches",
+      "sandwiche",
       "dessert",
-      "beverages",
+      "beverage",
     ],
   },
   {

@@ -1,0 +1,42 @@
+.inp {
+  width: 100%;
+  max-width: 500px;
+  color:black;
+  font-weight: 500;
+  border: none !important;
+  outline:none !important;
+}
+
+.img{
+  border-radius: 50%;
+}
+.each{
+  display:flex;
+  width: 100%;
+  gap:50px;
+  justify-content: center;
+  flex-direction: row;
+  padding:10px;
+  /* padding-bottom: 10px; */
+  border-radius: 12px;
+  background-color: rgba(230, 230, 230, 0.61);
+}
+.total{
+  text-align: end;
+ 
+}
+.total span{
+  color: green;
+}
+@media only screen and (max-width: 745px){
+ 
+  .each{
+      flex-direction: column;
+      width: fit-content;
+      gap: 8px;
+  }
+  .total{
+    /* width: fit-content; */
+    text-align: center;
+  }
+}

@@ -16,6 +16,7 @@ const Container = styled.div`
   gap: 30px;
   @media (max-width: 768px) {
     padding: 20px 12px;
+     height:fit-content;
     flex-direction: column;
     overflow-y: scroll;
   }
